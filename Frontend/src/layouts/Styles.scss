@@ -1,0 +1,27 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: floralwhite;
+
+  .container {
+    > div {
+      width: 100%;
+    }
+    border: 1px solid green;
+    width: 75%;
+    min-height: 70vh;
+    background: honeydew;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    padding: 20px;
+    display: flex;
+    svg.back-arrow {
+      padding: 8px;
+      fill: green;
+      cursor: pointer;
+      font-size: 35px;
+    }
+  }
+}

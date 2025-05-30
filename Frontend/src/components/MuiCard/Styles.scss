@@ -1,0 +1,27 @@
+.mui-card {
+  width: 360px;
+  border: 1px solid green;
+  .MuiCardHeader-root {
+    border-bottom: 1px solid green;
+  }
+  .MuiCardContent-root {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+  .MuiCardActions-root {
+    .status {
+      &-complete {
+        svg {
+          fill: green;
+        }
+      }
+      &-redo {
+        svg {
+          fill: brown;
+        }
+      }
+    }
+  }
+}

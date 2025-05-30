@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  &-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    &.logged-header {
+      justify-content: space-between;
+      padding: 20px 150px;
+    }
+
+    .title {
+      font-size: 20px;
+      color: green;
+      font-weight: bolder;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .MuiLink-button {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 18%;
+      font-size: 22px;
+      color: green;
+      padding-bottom: 7px;
+    }
+    .menu {
+      display: flex;
+      gap: 50px;
+      p {
+        font-size: 17px;
+        font-weight: 600;
+        cursor: pointer;
+        background-color: honeydew;
+        padding: 8px;
+        border: 1px solid green;
+        border-radius: 8px;
+        &:hover {
+          background-color: greenyellow;
+        }
+      }
+    }
+  }
+}

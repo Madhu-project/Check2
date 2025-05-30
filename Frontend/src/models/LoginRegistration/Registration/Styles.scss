@@ -1,0 +1,18 @@
+.register {
+  &-field {
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+    flex-direction: row;
+    p {
+      width: 166px;
+    }
+    .MuiTextField-root {
+      width: 29%;
+    }
+  }
+  &-button {
+    padding-top: 10%;
+    width: 47%;
+  }
+}

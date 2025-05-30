@@ -1,0 +1,30 @@
+.login-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  .MuiLink-root {
+    padding: 10px;
+    color: darkblue;
+    font-size: 20px;
+  }
+  .login {
+    width: 100%;
+    &-field {
+      display: flex;
+      align-items: center;
+      padding-top: 35px;
+      flex-direction: row;
+      p {
+        width: 166px;
+      }
+      .MuiTextField-root {
+        width: 29%;
+      }
+    }
+    &-button {
+      padding: 55px 25px;
+      width: 55%;
+    }
+  }
+}
